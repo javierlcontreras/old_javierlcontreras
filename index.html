@@ -1,44 +1,43 @@
+<!doctype html>
+
+<html lang="en">
 <head>
     <meta charset="utf-8">
  
     <title>JLC</title>
  
- 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <style>
-        body {
-            display: flex;
-            align-items: center;
-            vertical-align: center;   
-            background-color: 	#F0F0F0;
-        }
-        div {
-            width: 100%;
+        html, body {
             height: 100%;
-            text-align: center; 
+            width: 100%;
+            background-color: #F0F0F0;
         }
-        h1 {
-            font-size: 5vh;
+        table {
+            margin: 0px auto;
+            height: 100%;
+        }
+        h1, p {
+            text-align: center; 
             font-family: Helvetica;
             margin: 2vh;  
         }
+        h1 {
+            font-size: 5vh;
+        }
         p {
             font-size: 3vh;
-            font-family: Helvetica; 
-            margin: 2vh;  
+        }
+        .icons {
+            text-align: center; 
         }
         .icon {
             margin: 1vh;  
             font-size: 5vh;
             color:green;
-            text-decoration: none !important;
         }
         .linked, .linked:hover {
             color: green;
@@ -46,19 +45,24 @@
     </style>
 </head>
 <body>
-    <div>
-        <h1><b>Javier López-Contreras</b></h1>
-        <p>Mathematics and Computer Science student at 
-            <a class="linked" target="_blank" href="https://cfis.upc.edu/en" >CFIS-UPC.</p>
-        <div class="icons">
-            <a target="_blank" href="mailto:javierlc2000@gmail.com">
-                <i class="icon fa fa-envelope"></i></a>
-            <a target="_blank" href="https://github.com/javierlc2000">
-                <i class="icon fa fa-github"></i></a>
-            <a target="_blank" href="https://drive.google.com/file/d/0B7euIqwcdJgHV3QzMU1uSkhPU1JIZmlpSzdFQWhGMDEybTVJ/view">
-                <i class="icon fa fa-file-text"></i></a>
-        </div>
-    </div>
-
+    <table>
+        <tr>
+            <td>
+                <h1><b>Javier López-Contreras</b></h1>
+                <p>Mathematics and Computer Science student at 
+                    <a class="linked" target="_blank" href="https://cfis.upc.edu/en" >CFIS-UPC.</p>
+                
+                <div class="icons">
+                    <a target="_blank" href="mailto:javierlc2000@gmail.com">
+                        <i class="icon fa fa-envelope"></i></a>
+                    <a target="_blank" href="https://github.com/javierlc2000">
+                        <i class="icon fa fa-github"></i></a>
+                    <a target="_blank" href="https://drive.google.com/file/d/0B7euIqwcdJgHV3QzMU1uSkhPU1JIZmlpSzdFQWhGMDEybTVJ/view">
+                        <i class="icon fa fa-file-text"></i></a>
+                </div>
+            </td>
+        </tr>
+    </table>  
+    
 </body>
 </html>
